@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 3.0'
 
   spec.add_runtime_dependency 'bigcommerce-multitrap', '~> 0.1'
-  spec.add_runtime_dependency 'prometheus_exporter', '~> 0.7'
+  spec.add_runtime_dependency 'prometheus_exporter', '~> 2.1.0'
   spec.add_runtime_dependency 'puma', '> 5'
   spec.add_runtime_dependency 'rack', '>= 3.0'
   spec.add_runtime_dependency 'rake', '>= 10.0'
